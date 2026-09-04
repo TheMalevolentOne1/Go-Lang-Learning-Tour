@@ -18,7 +18,7 @@ func forStatementTwo() {
 }
 
 // While Loop
-func main() {
+func forStatementThree() {
 	// For Loop
 	i := 0
 	for ; i < 10; i += 2 {
@@ -30,5 +30,10 @@ func main() {
 	for j < 10 {
 		fmt.Println(j)
 		j = j + 2
+	}
+}
+
+func forStatementFour() {
+	for {
 	}
 }
